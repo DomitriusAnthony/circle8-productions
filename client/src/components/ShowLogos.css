@@ -1,0 +1,48 @@
+.logos {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.thisIsLA {
+    background: url(assets/ThisisLA.png);
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+    width: 190px;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.thisIsSF {
+    background: url(assets/ThisisSF.png);
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    width: 190px;
+}
+
+.thisIsSD {
+    background: url(assets/ThisisSD.png);
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    width: 190px;
+}
+
+.thisIsDenver {
+    background: url(assets/ThisisDenver.png);
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+}
+
+.theRecruit {
+    background: url(assets/TheRecruit.png);
+    background-position: center center;
+    background-size: cover;
+    width: 420px;
+    height: 100px;
+    margin-top: 30px;
+}
+

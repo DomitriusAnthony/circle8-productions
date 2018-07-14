@@ -1,10 +1,10 @@
 import React from 'react';
 
 import Nav from './Nav';
+import CopyAccordian from './CopyAccordian';
 import ShowLogos from './ShowLogos';
 import VideoBackground from './VideoBackground';
 import About from './About';
-import HostsGallery from './HostsGallery';
 import ImageGallery from './ImageGallery';
 import YoutubeGallery from './YoutubeGallery';
 import Testimonials from './Testimonials';
@@ -17,7 +17,9 @@ const Landing = () => (
         <VideoBackground />
         <About />
         <YoutubeGallery />
+        <CopyAccordian />
         <ImageGallery />
+        <CopyAccordian />
         <Testimonials />
         <ContactForm />
         <Footer />

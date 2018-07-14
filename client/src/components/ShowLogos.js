@@ -1,28 +1,35 @@
 import React from 'react';
 
+import './ShowLogos.css';
+
 const ShowLogos = () => (
-    <div className="container is-fluid space-above-below">
+    <div className="container is-fluid logos">
         <div class="columns">
-            <div class="column">
-                <figure class="image is-2by1">
-                    <img src="./images/ThisIsLA.png" />
-                </figure>
+            <div class="column is-two-fifths">
+                <div className="thisIsLA">
+                </div>
+            </div>
+            <div class="column is-two-fifths">
+                <div className="thisIsSF">
+                </div>
+            </div>
+            <div className="column is-two-fifths">
+                <div className="thisIsSD">
+                </div>
+            </div>
+        </div>
+        <div className="columns">
+            <div className="column is-one-fifth">
             </div>
             <div class="column">
-                <figure class="image is-2by1">
-                    <img src="./images/ThisIsSF.png" />
-                </figure>
+                <div className="thisIsDenver">
+                </div>
             </div>
             <div class="column">
-                <figure class="image is-2by1">
-                    <img src="./images/ThisIsSD.png" />
-                </figure>
+                <div className="theRecruit">
+                </div>
             </div>
-            <div class="column">
-                <figure class="image is-2by1">
-                    <img src="./images/TheRecruit.png" />
-                </figure>
-            </div>
+
         </div>
     </div>
 )

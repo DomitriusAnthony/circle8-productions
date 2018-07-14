@@ -7,17 +7,17 @@ const Nav = () => (
                 <div class="field is-grouped">
                     <p class="control">
                         <span class="icon">
-                            <i class="fab fa-facebook-f"></i>
+                            <a href="https://www.facebook.com/Circle-8-Productions-224807644607749/" style={{color: 'inherit', textDecoration: 'none'}}><i class="fab fa-facebook-f"></i></a>
                         </span>
                     </p>
                     <p class="control">
                         <span class="icon">
-                            <i class="fab fa-twitter"></i>
+                            <a href="https://twitter.com/Circle8TV" style={{color: 'inherit', textDecoration: 'none'}}><i class="fab fa-twitter"></i></a>
                         </span>
                     </p>
                     <p class="control">
                         <span class="icon">
-                            <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/circle8productions/?hl=en" style={{color: 'inherit', textDecoration: 'none'}}><i class="fab fa-instagram"></i></a>
                         </span>
                     </p>
                 </div>
