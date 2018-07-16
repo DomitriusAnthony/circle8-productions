@@ -2,16 +2,16 @@ import React from 'react';
 import './About.css';
 
 const About = () => (
-    <section class="hero">
-        <div class="hero-body">
-            <div class="container has-text-centered">
+    <section className="hero">
+        <div className="hero-body">
+            <div className="container has-text-centered">
                 <div className="columns">
                     <div className="column is-one-third">
                         <div className="robImage">
                         </div>
                     </div>
                     <div className="column">
-                        <p class="subtitle about">
+                        <p className="subtitle about">
                         Circle 8 Productions (C8P) is a creative agency that produces high quality video content
                             for businesses and organizations by bridging the gap between social media influences
                             and major television platforms. Our programming redefines the traditional method of
