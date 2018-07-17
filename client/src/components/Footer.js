@@ -8,15 +8,13 @@ const Footer = () => (
                     <div class="content has-text-centered">
                         <label className="is-size-4">C8 Careers</label>
                         <ul style={{listStyle: 'none'}}>
-                            <li className="">Link to careers</li>
-                            <li className="">Link to careers</li>
-                            <li className="">Link to careers</li>
+                        
                         </ul>
                     </div>
                 </div>
                 <div className="column">
                     <div className="content is medium has-text-centered">
-                        <p className="">careers@circle8tv.com</p>
+                        <p className="">Contact us for possible opportunities at <a href="mailto:careers@circle8tv.com">careers@circle8tv.com</a></p>
                     </div>
                 </div>
             </div>

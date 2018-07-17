@@ -35,12 +35,6 @@ const Nav = () => (
                     <a class="navbar-item" href="#">
                         Home
                     </a>
-                    <a class="navbar-item" href="#">
-                        Filler
-                    </a>
-                    <a class="navbar-item" href="#">
-                        More
-                    </a>
                 </div>
             </div>
         </div>
