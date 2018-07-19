@@ -17,7 +17,7 @@ const Nav = () => (
                     </p>
                     <p class="control">
                         <span class="icon">
-                            <a href="https://www.instagram.com/circle8productions/?hl=en" style={{color: 'inherit', textDecoration: 'none'}}><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/circle8productionstv/?hl=en" style={{color: 'inherit', textDecoration: 'none'}}><i class="fab fa-instagram"></i></a>
                         </span>
                     </p>
                 </div>
