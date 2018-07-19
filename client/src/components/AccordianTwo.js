@@ -16,18 +16,9 @@ import {YoutubeUrls} from '../utils/show_youtube_links'
 const AccordianTwo = () => {
     return (
         <div className="container accordian">
-            <p className="is-size-1 has-text-centered">The who / how of C8P</p>
+            <p className="is-size-1 has-text-centered">Our Shows</p>
             <Accordion>
                 <AccordionItem expanded={true}>
-                    <AccordionItemTitle>
-                        <h3>How we place our TV shows</h3>
-                    </AccordionItemTitle>
-                    <AccordionItemBody className="accordianBody">
-                        <p>We look to partner with one of the big 4 broadcast stations in a market (Usually the Local- CBS, NBC, ABC, or FOX station). Our goal is to place our shows with the station who will give us the best, most consistent timeslot, as well as the most value for the fees we pay upfront. Yes—like virtually all local first run syndicated shows, we must pay broadcast stations a fee in each market. Because of this, we look for stations who will give our shows and content the most media value for the financial commitment we have to make.  Our shows tend to air in very high-profile timeslots that come after Sports programing (like Golf) or in Prime Access (6-8PM following local news or going into Primetime), as these areas tend to attract active viewers with high household incomes.[=]
-                        </p>
-                    </AccordionItemBody>
-                </AccordionItem>
-                <AccordionItem>
                     <AccordionItemTitle>
                         <h3>"This is" series</h3>
                     </AccordionItemTitle>
@@ -76,7 +67,34 @@ const AccordianTwo = () => {
                                 </li>
                             </ul>
                         </div>
-                        
+                    </AccordionItemBody>
+                </AccordionItem>
+                <AccordionItem>
+                <AccordionItemTitle>
+                    <h3>The Recruit</h3>
+                </AccordionItemTitle>
+                <AccordionItemBody className="accordianBody">
+                    <p>C8P understands that sometimes the challenge for companies is not selling their product, but attracting enough quality workers to keep up with the demand for their product.</p>
+                    <p>CP8’s “The Recruit” travels the country to give you an inside look at some of America’s fastest-growing and most successful companies as our hosts go undercover as an employee. We follow them on their first day as they meet their co-workers and converse with everyone from entry-level employees to CEOs. We explore the unique work environment and tell the story of how fun, creative work culture has kept employee morale so high and made these large companies some of the best places to work.</p>
+                    <p>This show is for those businesses who are already expanding and need the workers to help them keep up with demand; “The Recruit” is the professional tool necessary for companies to connect with talented, potential employees.</p>
+                    <p>The Recruitment Process:</p>
+                    <ul>
+                        <li>We find some of the most successful companies in the country (and around the world) and look at how they work from the inside. </li>
+                        <li>Each company is vetted by our producers to make sure they are continuing to grow rapidly and have a creative and compelling work culture that sets them apart from other companies.</li>
+                        <li>Each half-hour episode explores 4 different companies with a common theme or thread for a total of 7 minutes of content. </li>
+                        <li>The episode will air on a local broadcast station in a highly viewable timeslot followed by potential placement on a major digital platform</li>
+                        <li>After airing on a local broadcast station in a highly viewable timeslot, and potentially showcased on a major digital platform, all the content (B-footage, stills, etc.) will be licensed to the company (per our licensing fee), which can be used however they want to continue recruiting people to work for them. </li>
+                        <li>We will only showcase businesses that we believe in. We’ll only include companies we know have an incredible story to tell and who are looking to hire more talented hard workers to join them in their continued success.</li>
+                    </ul>
+                </AccordionItemBody>
+            </AccordionItem>
+                <AccordionItem>
+                <AccordionItemTitle>
+                    <h3>How we place our TV shows</h3>
+                </AccordionItemTitle>
+                    <AccordionItemBody className="accordianBody">
+                        <p>We look to partner with one of the big 4 broadcast stations in a market (Usually the Local- CBS, NBC, ABC, or FOX station). Our goal is to place our shows with the station who will give us the best, most consistent timeslot, as well as the most value for the fees we pay upfront. Yes—like virtually all local first run syndicated shows, we must pay broadcast stations a fee in each market. Because of this, we look for stations who will give our shows and content the most media value for the financial commitment we have to make.  Our shows tend to air in very high-profile timeslots that come after Sports programing (like Golf) or in Prime Access (6-8PM following local news or going into Primetime), as these areas tend to attract active viewers with high household incomes.
+                        </p>
                     </AccordionItemBody>
                 </AccordionItem>
                 <AccordionItem>
@@ -95,25 +113,6 @@ With our branded content, C8P seeks to find an alternative to online reviews, wh
                     </AccordionItemTitle>
                     <AccordionItemBody className="accordianBody">
                         <p>Our show talent and special guests are a big part of what makes our shows attractive. We look to feature local celebrities and social media influencers that not only have a connection to the city, but also to the businesses, we end up featuring.</p>
-                    </AccordionItemBody>
-                </AccordionItem>
-                <AccordionItem>
-                    <AccordionItemTitle>
-                        <h3>The Recruit</h3>
-                    </AccordionItemTitle>
-                    <AccordionItemBody className="accordianBody">
-                        <p>C8P understands that sometimes the challenge for companies is not selling their product, but attracting enough quality workers to keep up with the demand for their product.</p>
-                        <p>CP8’s “The Recruit” travels the country to give you an inside look at some of America’s fastest-growing and most successful companies as our hosts go undercover as an employee. We follow them on their first day as they meet their co-workers and converse with everyone from entry-level employees to CEOs. We explore the unique work environment and tell the story of how fun, creative work culture has kept employee morale so high and made these large companies some of the best places to work.</p>
-                        <p>This show is for those businesses who are already expanding and need the workers to help them keep up with demand; “The Recruit” is the professional tool necessary for companies to connect with talented, potential employees.</p>
-                        <p>The Recruitment Process:</p>
-                        <ul>
-                            <li>We find some of the most successful companies in the country (and around the world) and look at how they work from the inside. </li>
-                            <li>Each company is vetted by our producers to make sure they are continuing to grow rapidly and have a creative and compelling work culture that sets them apart from other companies.</li>
-                            <li>Each half-hour episode explores 4 different companies with a common theme or thread for a total of 7 minutes of content. </li>
-                            <li>The episode will air on a local broadcast station in a highly viewable timeslot followed by potential placement on a major digital platform</li>
-                            <li>After airing on a local broadcast station in a highly viewable timeslot, and potentially showcased on a major digital platform, all the content (B-footage, stills, etc.) will be licensed to the company (per our licensing fee), which can be used however they want to continue recruiting people to work for them. </li>
-                            <li>We will only showcase businesses that we believe in. We’ll only include companies we know have an incredible story to tell and who are looking to hire more talented hard workers to join them in their continued success.</li>
-                        </ul>
                     </AccordionItemBody>
                 </AccordionItem>
             </Accordion>  

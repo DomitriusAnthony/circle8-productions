@@ -8,7 +8,7 @@ const Testimonials = () => (
                 <div class="card">
                     <div class="card-content">
                         <p class="title is-size-4">
-                        “There's no one I trust more than Circle 8 Productions when it comes to creating content that's fun, engaging, and entertaining. We've filmed 3 segmants and can't wait to do more. The team is always accessible, gives straight answers, and delivers on their promises. I look forward to a long relationship with Circle 8 Productions”
+                        “There's no one I trust more than Circle 8 Productions when it comes to creating content that's fun, engaging, and entertaining. We've filmed 3 segments and can't wait to do more. The team is always accessible, gives straight answers, and delivers on their promises. I look forward to a long relationship with Circle 8 Productions”
                         </p>
                         <p class="subtitle has-text-grey">
                         Steve & Gabriela Ventre | Onsia Sound Art

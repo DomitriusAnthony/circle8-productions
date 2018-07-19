@@ -6,13 +6,15 @@ const About = () => (
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div className="columns">
-                    <div className="column is-one-third">
+                    <div className="column is-one-third has-text-centered founder">
                         <div className="robImage">
                         </div>
+                        <h4>Robert Parks - Valletta</h4>
+                        <p>Founder & Executive Producer</p>
                     </div>
                     <div className="column">
                         <p class="subtitle about">
-                        Circle 8 Productions (C8P) is a creative agency that produces high quality video content
+                            Circle 8 Productions (C8P) is a creative agency that produces high quality video content
                             for businesses and organizations by bridging the gap between social media influences
                             and major television platforms. Our programming redefines the traditional method of
                             building brands via digital content while connecting brands with exclusive access to

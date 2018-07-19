@@ -15,7 +15,7 @@ import {YoutubeUrls} from '../utils/show_youtube_links'
 const AccordianOne = () => {
     return (
         <div className="container accordian">
-            <p className="is-size-1 has-text-centered">Who is Circle 8?</p>
+            <p className="is-size-1 has-text-centered">C8P Vision</p>
             <Accordion>
                 <AccordionItem expanded={true}>
                     <AccordionItemTitle>

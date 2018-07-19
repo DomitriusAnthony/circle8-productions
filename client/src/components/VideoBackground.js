@@ -11,20 +11,15 @@ class VideoBackground extends Component {
                     </video>
                 </div>
 
-                <div className="sizzleOverlay">
-                    <div className="sizzleContent">
-                        <div className="columns">
-                            <div className="column is-centered">
-                                <div className="circle8Logo container"></div>
-                                <hr /> 
-                                <div className="textContainer">
-                                    <p className="sizzleText is-size-3 has-text-white">Bridging the gap between social media influences and major television platforms</p>
-                                </div>
+                <div className="sizzleContent">
+                    <div className="columns">
+                        <div className="column is-centered">
+                            <div className="circle8Logo container"></div>
+                                <p className="sizzleText is-size-3 has-text-white">Bridging the gap between social media influences and major television platforms</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         )
     }
 }

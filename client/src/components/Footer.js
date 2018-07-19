@@ -6,15 +6,9 @@ const Footer = () => (
             <div className="columns">
                 <div className="column">
                     <div class="content has-text-centered">
-                        <label className="is-size-4">C8 Careers</label>
-                        <ul style={{listStyle: 'none'}}>
-                        
-                        </ul>
-                    </div>
-                </div>
-                <div className="column">
-                    <div className="content is medium has-text-centered">
-                        <p className="">Contact us for possible opportunities at <a href="mailto:careers@circle8tv.com">careers@circle8tv.com</a></p>
+                        <label className="is-size-2">C8 Careers</label>
+                        <p className="">Contact us for career opportunities at <a href="mailto:careers@circle8tv.com">careers@circle8tv.com</a></p>
+                        <p className="">Contact us for media opportunities at <a href="mailto:medias@circle8tv.com">media@circle8tv.com</a></p>
                     </div>
                 </div>
             </div>
